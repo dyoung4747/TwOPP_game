@@ -43,7 +43,6 @@ class Game
     puts "Prepare for questions..."
 
     @questions.each { |q| 
-    puts @questions.index(q)
       if (@questions.index(q) == 20)
         puts "You are both show-offs... Try a harder game you try-hards..."
         break
