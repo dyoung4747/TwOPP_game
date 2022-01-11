@@ -17,19 +17,3 @@ class Question
   end
 
 end
-
-=begin
-q1 = Question.new
-puts "#{q1}"
-puts q1.answer
-
-q2 = Question.new
-puts "#{q2}"
-puts q2.answer
-
-q3 = Question.new
-puts "#{q3}"
-puts q3.answer
-=end
-
-

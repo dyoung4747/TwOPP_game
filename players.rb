@@ -13,22 +13,5 @@ class Player
   def lose_point
     @current_score -= 1
   end
-
-=begin
-  def to_s
-    "#{name} has a score of #{current_score}"
-  end
-=end
 end
 
-=begin
-p1 = Player.new('Player 1')
-puts p1.name
-puts p1.current_score
-p1.lose_point
-puts p1.current_score
-
-p2 = Player.new('Player 2')
-puts p2.name
-puts p2.current_score
-=end
